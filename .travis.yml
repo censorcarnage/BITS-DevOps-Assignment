@@ -4,6 +4,6 @@ jdk:
   - openjdk8
 
 script:
-  - mvnw clean install
+  - mvn clean install
 before_install:
   - chmod +x mvnw
